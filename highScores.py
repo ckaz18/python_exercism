@@ -16,5 +16,7 @@ def getLastScore(list):
     return list[-1]
 
 def getTopThreeHighestScores(list):
-    # return top three scores
-    return
+    sortArr = list
+    sortArr.sort()
+
+    return sortArr[-3:]
